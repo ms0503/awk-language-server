@@ -6,3 +6,12 @@ temp
 *.vsix
 *.log
 *.tsbuildinfo
+.direnv
+result*
+.pnp.*
+**/.yarn/*
+!**/.yarn/patches
+!**/.yarn/plugins
+!**/.yarn/releases
+!**/.yarn/sdks
+!**/.yarn/versions
