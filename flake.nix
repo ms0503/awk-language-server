@@ -13,7 +13,7 @@
   outputs =
     inputs@{ flake-parts, systems, ... }:
     let
-      depsHash = "sha256-CMhTle+4P6k7+RDRcDEtO0lO1aivbxUX3C0wisHzXUY=";
+      depsHash = "sha256-zPX9XeITKoMhEjLcriFdGpeYB2ztJ30ONnHpPe/gQok=";
       version = "2026-04-21";
     in
     flake-parts.lib.mkFlake { inherit inputs; } {
