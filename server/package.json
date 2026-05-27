@@ -42,5 +42,8 @@
     "build": "tsc -b ./tsconfig.json",
     "build:completion": "man gawk | gawk -f scripts/build_completion_list.awk > docs.json",
     "prepublishOnly": "cd .. && yarn build:server:force"
+  },
+  "resolutions": {
+    "@tootallnate/once@npm:1": "^2.0.1"
   }
 }
